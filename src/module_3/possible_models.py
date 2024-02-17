@@ -1,0 +1,70 @@
+MODEL_1 = [
+    "user_order_seq",
+    "ordered_before",
+    "abandoned_before",
+    "active_snoozed",
+    "set_as_regular",
+    "global_popularity",
+    "count_children",
+    "days_since_purchase_variant_id",
+    "avg_days_to_buy_variant_id",
+    "days_since_purchase_product_type",
+    "times_ordered",
+]
+
+MODEL_2 = [
+    "user_order_seq",
+    "ordered_before",
+    "abandoned_before",
+    "active_snoozed",
+    "set_as_regular",
+    "global_popularity",
+    "count_babies",
+    "people_ex_baby",
+    "days_since_purchase_variant_id",
+    "days_since_purchase_product_type",
+    "times_ordered",
+    "days_to_purchase_variant_id_norm",
+    "days_to_purchase_variant_id_if_ordered_before",
+    "days_to_purchase_product_type_norm",
+]
+
+MODEL_3 = [
+    "user_order_seq",
+    "ordered_before",
+    "abandoned_before",
+    "active_snoozed",
+    "set_as_regular",
+    "global_popularity",
+    "days_since_purchase_variant_id",
+    "days_since_purchase_product_type",
+    "times_ordered",
+    "days_to_purchase_variant_id_norm",
+    "days_to_purchase_variant_id_if_ordered_before",
+    "days_to_purchase_product_type_norm",
+]
+
+MODEL_4 = [
+    "user_order_seq",
+    "ordered_before",
+    "abandoned_before",
+    "active_snoozed",
+    "set_as_regular",
+    "global_popularity",
+    "days_since_purchase_variant_id",
+    "avg_days_to_buy_variant_id",
+    "days_since_purchase_product_type",
+    "times_ordered",
+]
+MODEL_5 = [
+    "user_order_seq",
+    "ordered_before",
+    "abandoned_before",
+    "active_snoozed",
+    "set_as_regular",
+    "global_popularity",
+    "days_since_purchase_variant_id",
+    "days_since_purchase_product_type",
+    "times_ordered",
+    "days_to_purchase_variant_id_norm",
+]
