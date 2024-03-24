@@ -1,0 +1,15 @@
+2024-03-24 13:00:21.764 | INFO     | __main__:log_requests:32 - rid=33c867bd-d258-4196-becb-f8303a5aea44 start request path=/predict
+2024-03-24 13:00:21.772 | INFO     | __main__:predict:76 - rid=33c867bd-d258-4196-becb-f8303a5aea44 prediction=[71.96937218096814, 70.84061537403744, 40.19830693069309, 60.139677186468624]
+2024-03-24 13:00:21.774 | INFO     | __main__:log_requests:41 - rid=33c867bd-d258-4196-becb-f8303a5aea44 completed_in=8.82ms status_code=200
+2024-03-24 13:00:31.241 | INFO     | __main__:log_requests:32 - rid=1cc59e47-07e4-48c5-83fc-762c1afb1a78 start request path=/status
+2024-03-24 13:00:31.242 | INFO     | __main__:log_requests:41 - rid=1cc59e47-07e4-48c5-83fc-762c1afb1a78 completed_in=0.70ms status_code=200
+2024-03-24 13:00:41.430 | INFO     | __main__:log_requests:32 - rid=c0002f31-4834-4558-81be-13ac99165d43 start request path=/predict
+2024-03-24 13:00:41.433 | ERROR    | __main__:predict:81 - rid=c0002f31-4834-4558-81be-13ac99165d43 Error with user 23a575ea534219445c40fba54706db2baecd3350983347ef6784c2d1e14bd940f54c1822405e1187627e4fd66a6aa14ab9186c2931830be3090e12c5a3e60dc
+User not found in feature store
+2024-03-24 13:00:41.434 | INFO     | __main__:log_requests:41 - rid=c0002f31-4834-4558-81be-13ac99165d43 completed_in=3.17ms status_code=404
+2024-03-24 13:01:12.824 | INFO     | __main__:log_requests:32 - rid=3d0d6876-7c67-4571-ab03-2479e78fb436 start request path=/predict
+2024-03-24 13:01:12.834 | INFO     | __main__:predict:76 - rid=3d0d6876-7c67-4571-ab03-2479e78fb436 prediction=[71.96937218096814, 70.84061537403744, 40.19830693069309, 60.139677186468624]
+2024-03-24 13:01:12.836 | INFO     | __main__:log_requests:41 - rid=3d0d6876-7c67-4571-ab03-2479e78fb436 completed_in=9.93ms status_code=200
+2024-03-24 13:19:20.698 | INFO     | __main__:log_requests:32 - rid=eabd5e24-1fef-4849-a273-d426f2ae2584 start request path=/predict
+2024-03-24 13:19:20.710 | INFO     | __main__:predict:76 - rid=eabd5e24-1fef-4849-a273-d426f2ae2584 prediction=[71.96937218096814, 70.84061537403744, 40.19830693069309, 60.139677186468624]
+2024-03-24 13:19:20.712 | INFO     | __main__:log_requests:41 - rid=eabd5e24-1fef-4849-a273-d426f2ae2584 completed_in=12.26ms status_code=200
